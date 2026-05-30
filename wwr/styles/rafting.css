@@ -1,13 +1,10 @@
 :root {
-  /* Paleta de colores inspirada en rafting/agua con buen contraste */
-  --primary-color: #006699;     /* Azul agua profundo (para encabezados o barras de navegación) */
-  --secondary-color: #33b5e5;   /* Azul claro / aqua brillante (para enlaces o detalles) */
-  --accent1-color: #ff8800;     /* Naranja chaleco salvavidas (un toque de contraste llamativo) */
-  --accent2-color: #24486b;     /* Gris oscuro azulado (para textos principales, alto contraste) */
-  
-  /* Tipografías modernas y limpias */
-  --heading-font: "Trebuchet MS", "Lucida Grande", sans-serif; /* Dinámica para títulos */
-  --body-font: Arial, Helvetica, sans-serif;                   /* Muy legible para el contenido */
+  --primary-color: #006699;   
+  --secondary-color: #33b5e5;   
+  --accent1-color: #ff8800;     
+  --accent2-color: #24486b;     
+  --heading-font: "Trebuchet MS", "Lucida Grande", sans-serif; 
+  --body-font: Arial, Helvetica, sans-serif;                   
 }
 
 * {
@@ -18,12 +15,12 @@
 
 body {
   font-family: var(--body-font);
-  color: var(--accent2-color); /* Nota: Ajustado a accent2 si prefieres un texto oscuro legible */
+  color: var(--accent2-color); 
 }
 
 
 header, main, footer {
-  max-width: 840px; /* Usar max-width en lugar de width ayuda a que sea responsivo */
+  max-width: 840px; 
   margin: 0 auto;
 }
 
@@ -36,6 +33,17 @@ h1, h2, h3, h4, h5, h6 {
 nav, p, section, article {
   margin: 16px;
   padding: 8px;
+}
+
+
+nav a {
+  color: var(--secondary-color); 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: var(--accent1-color); 
 }
 
 
