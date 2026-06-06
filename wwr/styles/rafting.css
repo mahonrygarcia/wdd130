@@ -1,6 +1,6 @@
 :root {
   --primary-color: #006699;   
-  --secondary-color: #006699;   
+  --secondary-color: #33b5e5;   
   --accent1-color: #ff8800;     
   --accent2-color: #24486b;    
   --heading-font: "Trebuchet MS", "Lucida Grande", sans-serif; 
@@ -57,7 +57,7 @@ nav, p, section, article {
 
 
 nav a {
-  color: var(--secondary-color); 
+  color: var(--primary-color); 
   text-decoration: none;
   font-weight: bold;
   display: block;
@@ -148,7 +148,6 @@ nav a:hover {
 .adventures h2 {
     width: 100%;
     text-align: center;
-
 }
 
 
@@ -157,10 +156,13 @@ footer {
     justify-content: space-between;
     align-items: center;
     background-color: var(--accent2-color);
-    color: #fff;
+    color: white;
     padding: 1rem;
 }
 
+footer p{
+  color: #fff;
+}
 
 
 .socialmedia img {
