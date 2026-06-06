@@ -1,6 +1,6 @@
 :root {
   --primary-color: #006699;   
-  --secondary-color: #33b5e5;   
+  --secondary-color: #006699;   
   --accent1-color: #ff8800;     
   --accent2-color: #24486b;    
   --heading-font: "Trebuchet MS", "Lucida Grande", sans-serif; 
@@ -160,6 +160,7 @@ footer {
     color: #fff;
     padding: 1rem;
 }
+
 
 
 .socialmedia img {
