@@ -191,3 +191,152 @@ footer p{
 
 
 
+/* CONTACT US CSS */
+
+.contact-info {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.contact-info h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info p {
+  margin: 2px 0;
+  padding: 0;
+  text-align: center;
+  color: var(--accent2-color); 
+}
+
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 350px;
+  background-color: #eee;
+}
+
+
+form {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+form label, .form-title {
+  font-weight: normal;
+  color: #333;
+  padding-top: 0.4rem; 
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-family: var(--body-font);
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0;
+  font-weight: normal;
+}
+
+.checkbox-container {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.checkbox-container label {
+  padding-top: 0;
+  font-weight: normal;
+}
+
+
+form button {
+  grid-column: 1 / -1;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 1px solid #adadad;
+  padding: 0.75rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+form button:hover {
+  background-color: #ccc;
+}
+
+
+.employees-section {
+  border: 1px solid #e0e0e0; 
+  padding: 1.5rem;
+  margin: 2rem 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.employees-section h2 {
+  color: var(--primary-color); 
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.employees-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.employees-container figure {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.employees-container img {
+  width: 100%;
+  max-width: 120px; 
+  height: auto;
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
+.employees-container figcaption {
+  font-size: 0.9rem;
+  color: var(--accent2-color);
+}
